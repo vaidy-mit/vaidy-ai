@@ -1,0 +1,64 @@
+"use client";
+
+import React from "react";
+
+interface QuickLinksProps {
+  className?: string;
+}
+
+export const QuickLinks: React.FC<QuickLinksProps> = ({ className = "" }) => {
+  const links = [
+    {
+      label: "LinkedIn",
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+      ),
+      href: "https://www.linkedin.com/in/vaidyanathan-pk-1a494086/",
+      color: "hover:text-[#0077b5]"
+    },
+    {
+      label: "Resume",
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
+          <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11zM9 13h6v2H9v-2zm0 4h6v2H9v-2zm0-8h2v2H9V9z"/>
+        </svg>
+      ),
+      href: "/resume.pdf",
+      color: "hover:text-[var(--accent-purple)]",
+      download: true
+    },
+    {
+      label: "Email",
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+      ),
+      href: "mailto:vaidy.39e@gmail.com",
+      color: "hover:text-[var(--accent-orange)]"
+    }
+  ];
+
+  return (
+    <div className={`flex items-center gap-4 ${className}`}>
+      {links.map((link) => (
+        <a
+          key={link.label}
+          href={link.href}
+          target={link.download ? undefined : "_blank"}
+          rel={link.download ? undefined : "noopener noreferrer"}
+          download={link.download ? "VaidyanathanPK_Resume.pdf" : undefined}
+          className={`flex items-center gap-2 px-4 py-2 bg-[var(--bg-card)] border border-[var(--border-color)] rounded-lg text-[var(--text-muted)] transition-all duration-200 hover:border-[var(--text-primary)] ${link.color}`}
+          title={link.label}
+        >
+          {link.icon}
+          <span className="hidden sm:inline text-sm">{link.label}</span>
+        </a>
+      ))}
+    </div>
+  );
+};
+
+export default QuickLinks;
