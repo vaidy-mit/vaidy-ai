@@ -13,12 +13,12 @@ export default function HomePage() {
           </p>
 
           {/* Name */}
-          <h1 className="text-5xl md:text-7xl font-bold text-[var(--text-white)] mb-6">
+          <h1 className="font-display text-5xl md:text-7xl font-bold text-[var(--text-white)] mb-6">
             Vaidy
           </h1>
 
           {/* Tagline */}
-          <p className="text-xl md:text-2xl text-[var(--text-muted)] mb-4 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-[var(--text-muted)] mb-4 max-w-2xl mx-auto leading-relaxed measure">
             AI Engineer building the future of{" "}
             <span className="text-[var(--text-secondary)]">developer tools</span>{" "}
             at Meta Reality Labs
@@ -69,7 +69,7 @@ export default function HomePage() {
 
       {/* Featured Section */}
       <section className="max-w-6xl mx-auto px-4 md:px-8 py-16 border-t border-[var(--border-color)]">
-        <h2 className="text-2xl font-bold text-[var(--text-white)] mb-8 text-center">
+        <h2 className="font-display text-2xl font-bold text-[var(--text-white)] mb-8 text-center">
           Featured
         </h2>
 

@@ -67,13 +67,13 @@ export default function LinksPage() {
           <div className="w-24 h-24 rounded-2xl bg-[var(--text-primary)] flex items-center justify-center text-[var(--bg-primary)] font-bold text-4xl mx-auto mb-6">
             V
           </div>
-          <h1 className="text-2xl font-bold text-[var(--text-white)] mb-2">
+          <h1 className="font-display text-2xl font-bold text-[var(--text-white)] mb-2">
             Vaidyanathan P K
           </h1>
           <p className="text-[var(--text-secondary)]">
             Lead AI Engineer @ Meta Reality Labs
           </p>
-          <p className="text-[var(--text-muted)] text-sm mt-2">
+          <p className="text-[var(--text-muted)] text-sm mt-2 leading-relaxed measure">
             Building the future of developer AI for the Metaverse
           </p>
         </div>
@@ -98,10 +98,10 @@ export default function LinksPage() {
                 {link.icon}
               </div>
               <div className="flex-1">
-                <h3 className="font-medium text-[var(--text-white)] group-hover:text-[var(--link-color)] transition-colors">
+                <h3 className="font-display font-medium text-[var(--text-white)] group-hover:text-[var(--link-color)] transition-colors">
                   {link.title}
                 </h3>
-                <p className="text-sm text-[var(--text-muted)]">
+                <p className="text-sm text-[var(--text-muted)] leading-relaxed">
                   {link.description}
                 </p>
               </div>

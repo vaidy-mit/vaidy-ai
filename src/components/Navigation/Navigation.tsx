@@ -33,7 +33,7 @@ export const Navigation: React.FC = () => {
             <div className="w-9 h-9 rounded-lg bg-[var(--text-primary)] flex items-center justify-center text-[var(--bg-primary)] font-bold text-lg">
               V
             </div>
-            <span className="text-lg font-bold text-[var(--text-white)]">
+            <span className="font-display text-lg font-bold text-[var(--text-white)]">
               vaidy<span className="text-[var(--text-primary)]">.ai</span>
             </span>
           </Link>

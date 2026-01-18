@@ -7,10 +7,10 @@ export default function BlogPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <span className="text-6xl mb-6 block">✍️</span>
-          <h1 className="text-4xl font-bold text-[var(--text-white)] mb-4">
+          <h1 className="font-display text-4xl font-bold text-[var(--text-white)] mb-4">
             Blog
           </h1>
-          <p className="text-[var(--text-muted)] text-lg max-w-xl mx-auto">
+          <p className="text-[var(--text-muted)] text-lg max-w-xl mx-auto leading-relaxed measure">
             Technical articles on AI, engineering, and career growth.
             This section is coming soon.
           </p>
@@ -23,10 +23,10 @@ export default function BlogPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
             </svg>
           </div>
-          <h2 className="text-xl font-semibold text-[var(--text-white)] mb-2">
+          <h2 className="font-display text-xl font-semibold text-[var(--text-white)] mb-2">
             Coming Soon
           </h2>
-          <p className="text-[var(--text-muted)] mb-6">
+          <p className="text-[var(--text-muted)] mb-6 leading-relaxed measure">
             I&apos;m preparing articles on AI engineering, building developer platforms,
             and lessons from my journey at Meta and Amazon.
           </p>
@@ -48,7 +48,7 @@ export default function BlogPage() {
 
         {/* Notify Section */}
         <div className="bg-[var(--bg-terminal)] rounded-xl border border-[var(--border-color)] p-6 text-center mb-8">
-          <p className="text-[var(--text-muted)] mb-4">
+          <p className="text-[var(--text-muted)] mb-4 leading-relaxed measure">
             Want to be notified when I publish?
           </p>
           <a

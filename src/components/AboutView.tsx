@@ -20,7 +20,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
         <div className="w-24 h-24 rounded-2xl bg-[var(--text-primary)] flex items-center justify-center text-[var(--bg-primary)] font-bold text-5xl mx-auto mb-6">
           V
         </div>
-        <h1 className="text-4xl font-bold text-[var(--text-white)] mb-2">
+        <h1 className="font-display text-4xl font-bold text-[var(--text-white)] mb-2">
           {profile.name}
         </h1>
         <p className="text-xl text-[var(--text-primary)] mb-2">
@@ -29,7 +29,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
         <p className="text-[var(--text-muted)] mb-6">
           📍 {profile.location}
         </p>
-        <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
+        <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto leading-relaxed measure">
           {profile.tagline}
         </p>
 
@@ -51,7 +51,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
 
       {/* Meta Connect Video Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
+        <h2 className="font-display text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
           <span className="text-[var(--accent-pink)]">🎤</span> Meta Connect 2025
         </h2>
         <div className="bg-[var(--bg-card)] rounded-lg border border-[var(--border-color)] overflow-hidden">
@@ -65,10 +65,10 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
             />
           </div>
           <div className="p-4">
-            <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
+            <h3 className="font-display text-lg font-semibold text-[var(--text-primary)] mb-2">
               Optimising Horizon Developer Experience for the Agentic AI Era
             </h3>
-            <p className="text-[var(--text-muted)] text-sm">
+            <p className="text-[var(--text-muted)] text-sm leading-relaxed measure">
               Featured speaker at Meta Connect 2025, presenting to 5,000+ developers with 100K+ keynote viewers.
               Discussing responsible development of agentic AI systems and knowledge graph architecture for safe code assistance.
             </p>
@@ -78,7 +78,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
 
       {/* Experience Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
+        <h2 className="font-display text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
           <span className="text-[var(--text-secondary)]">💼</span> Experience
         </h2>
         <div className="space-y-6">
@@ -89,7 +89,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
             >
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3">
                 <div>
-                  <h3 className="text-lg font-semibold text-[var(--text-primary)]">
+                  <h3 className="font-display text-lg font-semibold text-[var(--text-primary)]">
                     {exp.role}
                   </h3>
                   <p className="text-[var(--text-secondary)]">
@@ -126,7 +126,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
 
       {/* Patents Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
+        <h2 className="font-display text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
           <span className="text-[var(--accent-purple)]">📜</span> Patents ({patents.length})
         </h2>
         <div className="grid gap-4 sm:grid-cols-2">
@@ -136,7 +136,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
               className="bg-[var(--bg-card)] rounded-lg border border-[var(--border-color)] p-4"
             >
               <div className="flex items-start justify-between mb-2">
-                <h3 className="text-[var(--text-primary)] font-medium">
+                <h3 className="font-display text-[var(--text-primary)] font-medium">
                   {patent.shortTitle}
                 </h3>
                 <span
@@ -163,7 +163,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
 
       {/* Skills Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
+        <h2 className="font-display text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
           <span className="text-[var(--accent-pink)]">⚡</span> Skills
         </h2>
         <div className="space-y-4">
@@ -172,7 +172,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
               key={category.name}
               className="bg-[var(--bg-card)] rounded-lg border border-[var(--border-color)] p-4"
             >
-              <h3 className="font-medium mb-3" style={{ color: category.color }}>
+              <h3 className="font-display font-medium mb-3" style={{ color: category.color }}>
                 {category.name}
               </h3>
               <div className="flex flex-wrap gap-2">
@@ -192,7 +192,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
 
       {/* Achievements Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
+        <h2 className="font-display text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
           <span className="text-[var(--accent-orange)]">🏆</span> Achievements
         </h2>
         <div className="grid gap-4 sm:grid-cols-2">
@@ -208,7 +208,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">{icon}</span>
                   <div>
-                    <h3 className="text-[var(--text-primary)] font-medium">
+                    <h3 className="font-display text-[var(--text-primary)] font-medium">
                       {ach.title}
                     </h3>
                     <p className="text-xs text-[var(--text-secondary)] mb-2">
@@ -227,7 +227,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
 
       {/* Education Section */}
       <section className="mb-12">
-        <h2 className="text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
+        <h2 className="font-display text-2xl font-bold text-[var(--text-white)] mb-6 flex items-center gap-2">
           <span className="text-[var(--accent-blue)]">🎓</span> Education
         </h2>
         <div className="space-y-4">
@@ -236,7 +236,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
               key={edu.id}
               className="bg-[var(--bg-card)] rounded-lg border border-[var(--border-color)] p-4"
             >
-              <h3 className="text-[var(--text-primary)] font-medium">
+              <h3 className="font-display text-[var(--text-primary)] font-medium">
                 {edu.degree}
               </h3>
               <p className="text-[var(--text-secondary)]">
@@ -257,10 +257,10 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
 
       {/* CTA Section */}
       <section className="text-center py-8 border-t border-[var(--border-color)]">
-        <h2 className="text-xl font-bold text-[var(--text-white)] mb-4">
+        <h2 className="font-display text-xl font-bold text-[var(--text-white)] mb-4">
           Want to explore interactively?
         </h2>
-        <p className="text-[var(--text-muted)] mb-6">
+        <p className="text-[var(--text-muted)] mb-6 leading-relaxed measure">
           Try the Terminal or Knowledge Graph view for a more immersive experience
         </p>
         <button
