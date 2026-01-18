@@ -55,23 +55,25 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
           <span className="text-[var(--accent-pink)]">🎤</span> Meta Connect 2025
         </h2>
         <div className="bg-[var(--bg-card)] rounded-lg border border-[var(--border-color)] overflow-hidden">
-          <div className="aspect-video">
-            <iframe
-              src="https://www.youtube.com/embed/0v4_2pLH4jg"
-              title="Meta Connect 2025 - Optimising Horizon Developer Experience for the Agentic AI Era"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-full"
-            />
-          </div>
-          <div className="p-4">
-            <h3 className="font-display text-lg font-semibold text-[var(--text-primary)] mb-2">
-              Optimising Horizon Developer Experience for the Agentic AI Era
-            </h3>
-            <p className="text-[var(--text-muted)] text-sm leading-relaxed measure">
-              Featured speaker at Meta Connect 2025, presenting to 5,000+ developers with 100K+ keynote viewers.
-              Discussing responsible development of agentic AI systems and knowledge graph architecture for safe code assistance.
-            </p>
+          <div className="flex flex-col md:flex-row">
+            <div className="aspect-video md:aspect-auto md:h-full md:w-80 md:shrink-0">
+              <iframe
+                src="https://www.youtube.com/embed/0v4_2pLH4jg"
+                title="Meta Connect 2025 - Optimising Horizon Developer Experience for the Agentic AI Era"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
+            <div className="p-4 md:p-5">
+              <h3 className="font-display text-lg font-semibold text-[var(--text-primary)] mb-2">
+                Optimising Horizon Developer Experience for the Agentic AI Era
+              </h3>
+              <p className="text-[var(--text-muted)] text-sm leading-relaxed">
+                Featured speaker at Meta Connect 2025, presenting to 5,000+ developers with 100K+ keynote viewers.
+                Discussing responsible development of agentic AI systems and knowledge graph architecture for safe code assistance.
+              </p>
+            </div>
           </div>
         </div>
       </section>
