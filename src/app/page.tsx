@@ -73,8 +73,8 @@ export default function HomePage() {
           Featured
         </h2>
 
-        {/* Meta Connect Video */}
-        <div className="max-w-3xl mx-auto">
+        <div className="space-y-8">
+          {/* Meta Connect Session Talk */}
           <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] overflow-hidden">
             <div className="aspect-video">
               <iframe
@@ -89,17 +89,81 @@ export default function HomePage() {
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-2xl">🎤</span>
                 <span className="text-xs text-[var(--accent-pink)] bg-[var(--accent-pink)]/10 px-2 py-1 rounded">
-                  META CONNECT 2025
+                  META CONNECT 2025 SESSION
                 </span>
               </div>
               <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-2">
                 Optimising Horizon Developer Experience for the Agentic AI Era
               </h3>
               <p className="text-[var(--text-muted)] text-sm">
-                Featured speaker presenting to 5,000+ developers, with 100K+ keynote viewers.
-                Discussing responsible development of agentic AI systems.
+                Featured speaker presenting to 5,000+ developers. Discussing responsible development
+                of agentic AI systems and knowledge graph architecture for safe code assistance.
               </p>
             </div>
+          </div>
+
+          {/* Two column grid for Keynote and Press */}
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Connect 2025 Keynote - Horizon OS MCP Server */}
+            <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] overflow-hidden">
+              <div className="aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/4HyOzQH22zw?start=1510"
+                  title="Meta Connect 2025 Keynote - Horizon OS MCP Server"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-xl">📺</span>
+                  <span className="text-xs text-[var(--accent-purple)] bg-[var(--accent-purple)]/10 px-2 py-1 rounded">
+                    CONNECT KEYNOTE
+                  </span>
+                </div>
+                <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
+                  Horizon OS MCP Server
+                </h3>
+                <p className="text-[var(--text-muted)] text-sm">
+                  My work on Horizon OS MCP Server featured in the Meta Connect 2025 Developer Keynote
+                  with 100K+ viewers.
+                </p>
+              </div>
+            </div>
+
+            {/* Press Coverage - UploadVR */}
+            <a
+              href="https://www.uploadvr.com/meta-horizon-worlds-desktop-editor-creator-assistant-a-agent/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] overflow-hidden hover:border-[var(--text-primary)] transition-colors group"
+            >
+              <div className="aspect-video bg-[var(--bg-terminal)] flex items-center justify-center">
+                <div className="text-center p-6">
+                  <div className="text-6xl mb-4">📰</div>
+                  <div className="text-[var(--text-muted)] text-sm">UploadVR</div>
+                </div>
+              </div>
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-xl">🗞️</span>
+                  <span className="text-xs text-[var(--accent-orange)] bg-[var(--accent-orange)]/10 px-2 py-1 rounded">
+                    PRESS COVERAGE
+                  </span>
+                </div>
+                <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2 group-hover:underline">
+                  Horizon Worlds Gen AI Assistant
+                </h3>
+                <p className="text-[var(--text-muted)] text-sm">
+                  My work on integrating Knowledge Graph into Horizon Worlds Creator Assistant
+                  featured in UploadVR.
+                </p>
+                <span className="text-[var(--text-primary)] text-sm mt-2 inline-block">
+                  Read Article →
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
