@@ -22,7 +22,7 @@ export const experiences: Experience[] = [
     startDate: "2024-03",
     endDate: "present",
     highlights: [
-      "Leading AI Foundations Team of 6 engineers building AI-driven developer platforms for Horizon ecosystem (VR/MR, mobile, web, desktop), impacting 20K+ developers building for the Metaverse",
+      "Building AI-driven developer platforms for the Horizon ecosystem (VR/MR, mobile, web, desktop), empowering 20K+ developers building for the Metaverse",
       "Built foundational infrastructure powering agentic coding assistants, focusing on safe and reliable AI assistance. Improved code generation accuracy to 85%+ and reduced onboarding time by 60%",
       "Designed novel Knowledge Graph System with 500K+ nodes powering Meta Horizon Worlds Gen AI Assistant. Achieved 78% precision and 88% recall through golden-set benchmarks. Filed patent with USPTO",
       "Architected AI-ready documentation pipelines processing 10K+ API endpoints with vector indexes. Achieved <200ms latency and 40% token cost reduction",

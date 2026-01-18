@@ -43,7 +43,7 @@ export const graphNodes: GraphNode[] = [
       role: "Lead AI Engineer",
       period: "March 2024 - Present",
       highlights: [
-        "Leading team of 6 engineers",
+        "AI Foundations Team",
         "Building AI-driven developer platforms",
         "Knowledge Graph with 500K+ nodes",
         "Meta Connect 2025 Speaker"
