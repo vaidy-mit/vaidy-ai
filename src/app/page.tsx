@@ -258,8 +258,7 @@ export default function HomePage() {
           </a>
 
           <a
-            href="/resume.pdf"
-            target="_blank"
+            href="/resume"
             className="flex items-center gap-2 px-6 py-3 bg-[var(--bg-card)] rounded-lg border border-[var(--border-color)] text-[var(--text-muted)] hover:text-[var(--accent-purple)] hover:border-[var(--accent-purple)] transition-colors"
           >
             <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">

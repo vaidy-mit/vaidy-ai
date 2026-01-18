@@ -26,8 +26,8 @@ export default function LinksPage() {
     },
     {
       title: "Resume",
-      description: "Download my full resume (PDF)",
-      href: "/resume.pdf",
+      description: "View my full resume",
+      href: "/resume",
       icon: (
         <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current">
           <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11zM9 13h6v2H9v-2zm0 4h6v2H9v-2z"/>

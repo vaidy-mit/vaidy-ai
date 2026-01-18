@@ -25,9 +25,8 @@ export const QuickLinks: React.FC<QuickLinksProps> = ({ className = "" }) => {
           <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11zM9 13h6v2H9v-2zm0 4h6v2H9v-2zm0-8h2v2H9V9z"/>
         </svg>
       ),
-      href: "/resume.pdf",
-      color: "hover:text-[var(--accent-purple)]",
-      download: true
+      href: "/resume",
+      color: "hover:text-[var(--accent-purple)]"
     },
     {
       label: "Email",
@@ -47,9 +46,8 @@ export const QuickLinks: React.FC<QuickLinksProps> = ({ className = "" }) => {
         <a
           key={link.label}
           href={link.href}
-          target={link.download ? undefined : "_blank"}
-          rel={link.download ? undefined : "noopener noreferrer"}
-          download={link.download ? "VaidyanathanPK_Resume.pdf" : undefined}
+          target={link.href.startsWith("http") ? "_blank" : undefined}
+          rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
           className={`flex items-center gap-2 px-4 py-2 bg-[var(--bg-card)] border border-[var(--border-color)] rounded-lg text-[var(--text-muted)] transition-all duration-200 hover:border-[var(--text-primary)] ${link.color}`}
           title={link.label}
         >

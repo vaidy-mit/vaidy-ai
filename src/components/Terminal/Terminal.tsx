@@ -67,7 +67,7 @@ export const Terminal: React.FC<TerminalProps> = ({ onSwitchView, onOpenLink }) 
         onOpenLink("https://www.linkedin.com/in/vaidyanathan-pk-1a494086/");
         break;
       case "resume":
-        onOpenLink("/resume.pdf");
+        onOpenLink("/resume");
         break;
       case "matrix":
         // Trigger matrix effect
