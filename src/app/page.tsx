@@ -52,7 +52,7 @@ export default function HomePage() {
             { value: "10+", label: "Years in Tech" },
             { value: "5", label: "US Patents" },
             { value: "4", label: "Inventor Awards" },
-            { value: "10+", label: "Engineers Led" },
+            { value: "Top 10", label: "ACM ICPC Regional" },
           ].map(({ value, label }) => (
             <div
               key={label}
