@@ -18,7 +18,7 @@
 
   <!-- Text -->
   <text x="240" y="290" font-family="system-ui, sans-serif" font-size="48" font-weight="bold" fill="#e6edf3">vaidy<tspan fill="#00ff9f">.ai</tspan></text>
-  <text x="240" y="340" font-family="system-ui, sans-serif" font-size="24" fill="#8b949e">AI Foundations Team Lead @ Meta Reality Labs</text>
+  <text x="240" y="340" font-family="system-ui, sans-serif" font-size="24" fill="#8b949e">Lead AI Engineer @ Meta Reality Labs</text>
 
   <!-- Highlights -->
   <text x="240" y="420" font-family="system-ui, sans-serif" font-size="18" fill="#64ffda">Building the future of developer AI for the Metaverse</text>
@@ -42,7 +42,7 @@
 
   <text x="720" y="210" font-family="monospace" font-size="14" fill="#00ff9f">$ whoami</text>
   <text x="720" y="240" font-family="monospace" font-size="14" fill="#e6edf3">Vaidyanathan P K</text>
-  <text x="720" y="265" font-family="monospace" font-size="14" fill="#64ffda">AI Foundations Team Lead</text>
+  <text x="720" y="265" font-family="monospace" font-size="14" fill="#64ffda">Lead AI Engineer</text>
   <text x="720" y="290" font-family="monospace" font-size="14" fill="#8b949e">@ Meta Reality Labs</text>
 
   <text x="720" y="340" font-family="monospace" font-size="14" fill="#00ff9f">$ patents --count</text>

@@ -34,7 +34,7 @@ export const useTerminal = (onSpecialAction?: (action: string) => void): UseTerm
       { type: "text", content: "Welcome to vaidy.ai", color: "var(--text-primary)" },
       { type: "text", content: "═".repeat(40), color: "var(--border-color)" },
       { type: "text", content: "" },
-      { type: "text", content: "AI Foundations Team Lead @ Meta Reality Labs", color: "var(--text-secondary)" },
+      { type: "text", content: "Lead AI Engineer @ Meta Reality Labs", color: "var(--text-secondary)" },
       { type: "text", content: "Building the future of developer AI for the Metaverse", color: "var(--accent-purple)" },
       { type: "text", content: "" },
       { type: "text", content: "Type 'help' for available commands", color: "var(--text-muted)" },

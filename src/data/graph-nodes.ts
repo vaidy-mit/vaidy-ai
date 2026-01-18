@@ -23,9 +23,9 @@ export const graphNodes: GraphNode[] = [
     group: "center",
     color: "#00ff9f",
     size: 40,
-    description: "AI Foundations Team Lead @ Meta Reality Labs",
+    description: "Lead AI Engineer @ Meta Reality Labs",
     details: {
-      title: "AI Foundations Team Lead",
+      title: "Lead AI Engineer",
       company: "Meta Reality Labs",
       location: "Seattle, WA"
     }
@@ -38,9 +38,9 @@ export const graphNodes: GraphNode[] = [
     group: "experience",
     color: "#64ffda",
     size: 30,
-    description: "AI Foundations Team Lead (2024-Present)",
+    description: "Lead AI Engineer (2024-Present)",
     details: {
-      role: "Software Engineer, AI Foundations Team Lead",
+      role: "Lead AI Engineer",
       period: "March 2024 - Present",
       highlights: [
         "Leading team of 6 engineers",

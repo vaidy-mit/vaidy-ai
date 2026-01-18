@@ -14,7 +14,7 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: "meta-reality-labs",
-    role: "Software Engineer, AI Foundations Team Lead",
+    role: "Lead AI Engineer",
     company: "Meta Reality Labs",
     team: "Developer & Pro Platforms Group",
     location: "Bellevue, United States",

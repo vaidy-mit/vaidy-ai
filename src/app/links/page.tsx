@@ -71,7 +71,7 @@ export default function LinksPage() {
             Vaidyanathan P K
           </h1>
           <p className="text-[var(--text-secondary)]">
-            AI Foundations Team Lead @ Meta Reality Labs
+            Lead AI Engineer @ Meta Reality Labs
           </p>
           <p className="text-[var(--text-muted)] text-sm mt-2">
             Building the future of developer AI for the Metaverse

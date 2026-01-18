@@ -12,10 +12,10 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://vaidy.ai"),
   title: {
-    default: "Vaidy | AI Foundations Team Lead @ Meta Reality Labs",
+    default: "Vaidy | Lead AI Engineer @ Meta Reality Labs",
     template: "%s | vaidy.ai"
   },
-  description: "Building the future of developer AI for the Metaverse. AI Foundations Team Lead at Meta Reality Labs, creating intelligent tools for 20K+ developers.",
+  description: "Building the future of developer AI for the Metaverse. Lead AI Engineer at Meta Reality Labs, creating intelligent tools for 20K+ developers.",
   keywords: [
     "Vaidyanathan",
     "Vaidy",
@@ -35,20 +35,20 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://vaidy.ai",
     siteName: "vaidy.ai",
-    title: "Vaidy | AI Foundations Team Lead @ Meta Reality Labs",
+    title: "Vaidy | Lead AI Engineer @ Meta Reality Labs",
     description: "Building the future of developer AI for the Metaverse. 5 US Patents, Meta Connect 2025 Speaker, ACM ICPC Finalist.",
     images: [
       {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Vaidy - AI Foundations Team Lead"
+        alt: "Vaidy - Lead AI Engineer"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vaidy | AI Foundations Team Lead @ Meta Reality Labs",
+    title: "Vaidy | Lead AI Engineer @ Meta Reality Labs",
     description: "Building the future of developer AI for the Metaverse.",
     images: ["/og-image.svg"]
   },

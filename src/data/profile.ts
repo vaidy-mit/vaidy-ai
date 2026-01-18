@@ -1,7 +1,7 @@
 export const profile = {
   name: "Vaidyanathan P K",
   shortName: "Vaidy",
-  title: "AI Foundations Team Lead",
+  title: "Lead AI Engineer",
   company: "Meta Reality Labs",
   location: "Seattle, United States",
   email: "vaidy.39e@gmail.com",
@@ -26,7 +26,7 @@ tools that empower 20K+ developers building for VR/MR/XR.`,
 `,
 
   highlights: [
-    "Leading AI Foundations Team at Meta Reality Labs",
+    "Lead AI Engineer at Meta Reality Labs",
     "Built Rufus - Amazon's Gen AI Shopping Assistant",
     "5 US Patents in AI, Voice & Speech Recognition",
     "Meta Connect 2025 Featured Speaker",

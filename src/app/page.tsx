@@ -26,7 +26,7 @@ export default function HomePage() {
 
           {/* Role */}
           <p className="text-[var(--accent-purple)] mb-12">
-            AI Foundations Team Lead • 5 Patents • Meta Connect Speaker
+            Lead AI Engineer • 5 Patents • Meta Connect Speaker
           </p>
 
           {/* CTA Buttons */}
