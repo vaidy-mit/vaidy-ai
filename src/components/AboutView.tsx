@@ -36,10 +36,10 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
         {/* Quick Stats */}
         <div className="flex flex-wrap justify-center gap-4 mt-8">
           {[
-            { value: "10+", label: "Years Experience" },
+            { value: "10+", label: "Years in Tech" },
             { value: "5", label: "US Patents" },
-            { value: "20K+", label: "Developers Impacted" },
-            { value: "500K+", label: "Knowledge Graph Nodes" }
+            { value: "4", label: "Inventor Awards" },
+            { value: "10+", label: "Engineers Led" }
           ].map(({ value, label }) => (
             <div key={label} className="px-6 py-3 bg-[var(--bg-card)] rounded-lg border border-[var(--border-color)]">
               <div className="text-2xl font-bold text-[var(--text-primary)]">{value}</div>

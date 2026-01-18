@@ -49,10 +49,10 @@ export default function HomePage() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
           {[
-            { value: "10+", label: "Years Experience" },
+            { value: "10+", label: "Years in Tech" },
             { value: "5", label: "US Patents" },
-            { value: "20K+", label: "Developers Impacted" },
-            { value: "500K+", label: "Knowledge Graph Nodes" },
+            { value: "4", label: "Inventor Awards" },
+            { value: "10+", label: "Engineers Led" },
           ].map(({ value, label }) => (
             <div
               key={label}
