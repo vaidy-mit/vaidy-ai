@@ -76,16 +76,17 @@ export default function HomePage() {
         <div className="space-y-8">
           {/* Meta Connect Session Talk */}
           <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] overflow-hidden">
-            <div className="aspect-video">
-              <iframe
-                src="https://www.youtube.com/embed/0v4_2pLH4jg"
-                title="Meta Connect 2025 - Optimising Horizon Developer Experience for the Agentic AI Era"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-              />
-            </div>
-            <div className="p-6">
+            <div className="flex flex-col md:flex-row">
+              <div className="aspect-video md:aspect-auto md:h-full md:w-80 md:shrink-0">
+                <iframe
+                  src="https://www.youtube.com/embed/0v4_2pLH4jg"
+                  title="Meta Connect 2025 - Optimising Horizon Developer Experience for the Agentic AI Era"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              </div>
+              <div className="p-6">
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-2xl">🎤</span>
                 <span className="text-xs text-[var(--accent-pink)] bg-[var(--accent-pink)]/10 px-2 py-1 rounded">
@@ -95,10 +96,11 @@ export default function HomePage() {
               <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-2">
                 Optimising Horizon Developer Experience for the Agentic AI Era
               </h3>
-              <p className="text-[var(--text-muted)] text-sm">
+              <p className="text-[var(--text-muted)] text-sm leading-relaxed">
                 Featured speaker presenting to 5,000+ developers. Discussing responsible development
                 of agentic AI systems and knowledge graph architecture for safe code assistance.
               </p>
+            </div>
             </div>
           </div>
 
