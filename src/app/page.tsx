@@ -48,20 +48,21 @@ export default function HomePage() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
             {[
-              { value: "10+", label: "Years in Tech" },
-              { value: "5", label: "US Patents" },
-              { value: "4", label: "Inventor Awards" },
-              { value: "100+", label: "Citations" },
-            ].map(({ value, label }) => (
-            <div
+              { value: "10+", label: "Years in Tech", href: "/profile" },
+              { value: "5", label: "US Patents", href: "/patents" },
+              { value: "4", label: "Inventor Awards", href: "/patents" },
+              { value: "100+", label: "Citations", href: "/patents" },
+            ].map(({ value, label, href }) => (
+            <Link
               key={label}
-              className="text-center p-6 bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] hover:border-[var(--text-primary)] transition-colors"
+              href={href}
+              className="text-center p-6 bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] hover:border-[var(--text-primary)] transition-colors group"
             >
-              <div className="text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-1">
+              <div className="text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-1 group-hover:scale-110 transition-transform">
                 {value}
               </div>
               <div className="text-sm text-[var(--text-muted)]">{label}</div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
@@ -175,7 +176,7 @@ export default function HomePage() {
           Explore
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Profile Card */}
           <Link
             href="/profile"
@@ -193,19 +194,36 @@ export default function HomePage() {
             </span>
           </Link>
 
+          {/* Patents Card */}
+          <Link
+            href="/patents"
+            className="group p-6 bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] hover:border-[var(--accent-purple)] transition-all hover:scale-[1.02]"
+          >
+            <div className="text-4xl mb-4">📜</div>
+            <h3 className="text-xl font-semibold text-[var(--text-white)] mb-2 group-hover:text-[var(--accent-purple)] transition-colors">
+              Patents
+            </h3>
+            <p className="text-[var(--text-muted)] text-sm mb-4">
+              5 patents in Voice AI, Speech Recognition, and Knowledge Systems.
+            </p>
+            <span className="text-[var(--accent-purple)] text-sm">
+              View Timeline →
+            </span>
+          </Link>
+
           {/* Projects Card */}
           <Link
             href="/projects"
-            className="group p-6 bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] hover:border-[var(--accent-purple)] transition-all hover:scale-[1.02]"
+            className="group p-6 bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] hover:border-[var(--accent-orange)] transition-all hover:scale-[1.02]"
           >
             <div className="text-4xl mb-4">🚀</div>
-            <h3 className="text-xl font-semibold text-[var(--text-white)] mb-2 group-hover:text-[var(--accent-purple)] transition-colors">
+            <h3 className="text-xl font-semibold text-[var(--text-white)] mb-2 group-hover:text-[var(--accent-orange)] transition-colors">
               Projects
             </h3>
             <p className="text-[var(--text-muted)] text-sm mb-4">
               Side projects, experiments, and open source contributions.
             </p>
-            <span className="text-[var(--accent-purple)] text-sm">
+            <span className="text-[var(--accent-orange)] text-sm">
               Coming Soon →
             </span>
           </Link>
