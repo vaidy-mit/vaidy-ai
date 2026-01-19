@@ -39,7 +39,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
             { value: "10+", label: "Years in Tech" },
             { value: "5", label: "US Patents" },
             { value: "4", label: "Inventor Awards" },
-            { value: "Top 10", label: "ACM ICPC Regional" }
+            { value: "100+", label: "Citations" }
           ].map(({ value, label }) => (
             <div key={label} className="px-6 py-3 bg-[var(--bg-card)] rounded-lg border border-[var(--border-color)]">
               <div className="text-2xl font-bold text-[var(--text-primary)]">{value}</div>

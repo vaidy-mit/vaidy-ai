@@ -28,7 +28,6 @@ export default function HomePage() {
           <p className="text-[var(--accent-purple)] mb-12">
             Lead AI Engineer • 5 Patents • Meta Connect Speaker
           </p>
-
           {/* CTA Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-16">
             <Link
@@ -48,12 +47,12 @@ export default function HomePage() {
 
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
-          {[
-            { value: "10+", label: "Years in Tech" },
-            { value: "5", label: "US Patents" },
-            { value: "4", label: "Inventor Awards" },
-            { value: "Top 10", label: "ACM ICPC Regional" },
-          ].map(({ value, label }) => (
+            {[
+              { value: "10+", label: "Years in Tech" },
+              { value: "5", label: "US Patents" },
+              { value: "4", label: "Inventor Awards" },
+              { value: "100+", label: "Citations" },
+            ].map(({ value, label }) => (
             <div
               key={label}
               className="text-center p-6 bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] hover:border-[var(--text-primary)] transition-colors"

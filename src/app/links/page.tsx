@@ -36,6 +36,17 @@ export default function LinksPage() {
       color: "var(--accent-purple)"
     },
     {
+      title: "Google Scholar",
+      description: "Research publications and citations",
+      href: "https://scholar.google.com/citations?user=aMLpi2gAAAAJ&hl=en",
+      icon: (
+        <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current">
+          <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zm0 13L5.18 9.5 12 5.9l6.82 3.6L12 16zM6 15v4l6 3 6-3v-4l-6 3-6-3z"/>
+        </svg>
+      ),
+      color: "var(--accent-blue)"
+    },
+    {
       title: "Email",
       description: "Get in touch directly",
       href: `mailto:${profile.email}`,
