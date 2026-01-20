@@ -236,3 +236,18 @@ body {
       inset 0 0 30px rgba(0, 255, 159, 0.05);
   }
 }
+
+/* Print styles */
+@media print {
+  @page {
+    size: landscape;
+    margin: 0.5in;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

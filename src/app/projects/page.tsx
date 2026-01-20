@@ -12,11 +12,44 @@ export default function ProjectsPage() {
           </h1>
           <p className="text-[var(--text-muted)] text-lg max-w-xl mx-auto leading-relaxed measure">
             Side projects, experiments, and open source contributions.
-            This section is coming soon.
           </p>
         </div>
 
-        {/* Coming Soon Card */}
+        {/* Meal Planner Card */}
+        <Link
+          href="/projects/meal-planner"
+          className="block bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] p-6 mb-6 hover:border-[var(--text-primary)]/50 transition-colors group"
+        >
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-lg bg-[var(--text-primary)]/20 flex items-center justify-center flex-shrink-0">
+              <span className="text-2xl">🍽️</span>
+            </div>
+            <div className="flex-1">
+              <h2 className="font-display text-xl font-semibold text-[var(--text-white)] mb-1 group-hover:text-[var(--text-primary)] transition-colors">
+                Meal Planner
+              </h2>
+              <p className="text-[var(--text-muted)] text-sm mb-3">
+                Plan weekly meals with AI-powered ingredient suggestions. Generate shopping lists and print calendars for your fridge.
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--text-secondary)] rounded">
+                  AI Ingredients
+                </span>
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--accent-purple)] rounded">
+                  Calendar Views
+                </span>
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--accent-pink)] rounded">
+                  Shopping Lists
+                </span>
+              </div>
+            </div>
+            <svg className="w-5 h-5 text-[var(--text-muted)] group-hover:text-[var(--text-primary)] transition-colors flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </Link>
+
+        {/* More Projects Coming Soon */}
         <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] p-8 text-center mb-8">
           <div className="w-16 h-16 rounded-full bg-[var(--accent-purple)]/20 flex items-center justify-center mx-auto mb-6">
             <svg className="w-8 h-8 text-[var(--accent-purple)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -24,10 +57,10 @@ export default function ProjectsPage() {
             </svg>
           </div>
           <h2 className="font-display text-xl font-semibold text-[var(--text-white)] mb-2">
-            Under Construction
+            More Coming Soon
           </h2>
           <p className="text-[var(--text-muted)] mb-6 leading-relaxed measure">
-            I&apos;m working on documenting my projects and building interactive demos.
+            I&apos;m working on documenting more projects and building interactive demos.
             Check back soon!
           </p>
           <div className="flex flex-wrap justify-center gap-3 text-sm">

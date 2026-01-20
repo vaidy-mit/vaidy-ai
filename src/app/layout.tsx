@@ -78,7 +78,7 @@ export default function RootLayout({
       <body className={`${jetbrainsMono.variable} ${spaceGrotesk.variable} antialiased bg-[var(--bg-primary)]`}>
         <Navigation />
         <main>{children}</main>
-        <footer className="border-t border-[var(--border-color)] mt-auto">
+        <footer className="border-t border-[var(--border-color)] mt-auto print:hidden">
           <div className="max-w-6xl mx-auto px-4 md:px-8 py-6">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-[var(--text-muted)]">
               <p>
