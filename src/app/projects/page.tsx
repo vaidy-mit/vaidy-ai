@@ -49,6 +49,45 @@ export default function ProjectsPage() {
           </div>
         </Link>
 
+        {/* Resume Builder Card */}
+        <Link
+          href="/projects/resume-builder"
+          className="block bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] p-6 mb-6 hover:border-[var(--text-primary)]/50 transition-colors group"
+        >
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-lg bg-[var(--accent-orange)]/20 flex items-center justify-center flex-shrink-0">
+              <span className="text-2xl">📄</span>
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center gap-2 mb-1">
+                <h2 className="font-display text-xl font-semibold text-[var(--text-white)] group-hover:text-[var(--text-primary)] transition-colors">
+                  Resume Builder
+                </h2>
+                <span className="px-2 py-0.5 text-xs bg-[var(--accent-orange)]/20 text-[var(--accent-orange)] rounded-full">
+                  Local Tool
+                </span>
+              </div>
+              <p className="text-[var(--text-muted)] text-sm mb-3">
+                AI-powered tool that tailors LaTeX resumes for job applications using Claude Code CLI. Paste a job description and get a perfectly optimized PDF.
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--accent-purple)] rounded">
+                  Claude Code
+                </span>
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--text-secondary)] rounded">
+                  LaTeX
+                </span>
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--accent-pink)] rounded">
+                  Streamlit
+                </span>
+              </div>
+            </div>
+            <svg className="w-5 h-5 text-[var(--text-muted)] group-hover:text-[var(--text-primary)] transition-colors flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </Link>
+
         {/* More Projects Coming Soon */}
         <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] p-8 text-center mb-8">
           <div className="w-16 h-16 rounded-full bg-[var(--accent-purple)]/20 flex items-center justify-center mx-auto mb-6">
