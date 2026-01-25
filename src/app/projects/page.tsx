@@ -88,6 +88,40 @@ export default function ProjectsPage() {
           </div>
         </Link>
 
+        {/* Toddler Activity Suggester Card */}
+        <Link
+          href="/projects/activity-suggester"
+          className="block bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] p-6 mb-6 hover:border-[var(--text-primary)]/50 transition-colors group"
+        >
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-lg bg-[var(--accent-pink)]/20 flex items-center justify-center flex-shrink-0">
+              <span className="text-2xl">🧒</span>
+            </div>
+            <div className="flex-1">
+              <h2 className="font-display text-xl font-semibold text-[var(--text-white)] mb-1 group-hover:text-[var(--text-primary)] transition-colors">
+                Toddler Activity Suggester
+              </h2>
+              <p className="text-[var(--text-muted)] text-sm mb-3">
+                AI-powered activity ideas for toddlers ages 1-3. Get learning, physical play, and creative art suggestions with printable activity cards.
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--text-secondary)] rounded">
+                  AI Powered
+                </span>
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--accent-purple)] rounded">
+                  Toddlers
+                </span>
+                <span className="px-2 py-1 bg-[var(--bg-terminal)] text-[var(--accent-pink)] rounded">
+                  Printable
+                </span>
+              </div>
+            </div>
+            <svg className="w-5 h-5 text-[var(--text-muted)] group-hover:text-[var(--text-primary)] transition-colors flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </Link>
+
         {/* More Projects Coming Soon */}
         <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] p-8 text-center mb-8">
           <div className="w-16 h-16 rounded-full bg-[var(--accent-purple)]/20 flex items-center justify-center mx-auto mb-6">
