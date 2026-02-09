@@ -224,7 +224,7 @@ export default function HomePage() {
               Side projects, experiments, and open source contributions.
             </p>
             <span className="text-[var(--accent-orange)] text-sm">
-              Coming Soon →
+              View Projects →
             </span>
           </Link>
 
