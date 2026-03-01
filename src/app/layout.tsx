@@ -18,19 +18,21 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL("https://vaidy.ai"),
   title: {
-    default: "Vaidy | Lead AI Engineer @ Meta Reality Labs",
+    default: "Vaidy | Lead AI Engineer @ Meta",
     template: "%s | vaidy.ai"
   },
-  description: "Building the future of developer AI for the Metaverse. Lead AI Engineer at Meta Reality Labs, creating intelligent tools for 20K+ developers.",
+  description: "Building production-grade Agentic AI systems at Meta. Lead AI Engineer designing autonomous multi-agent architectures, 5 US Patents, Meta Connect 2025 Speaker.",
   keywords: [
     "Vaidyanathan",
     "Vaidy",
     "AI Engineer",
-    "Meta Reality Labs",
+    "Meta",
+    "Agentic AI",
+    "Multi-Agent Systems",
+    "Autonomous AI",
     "Machine Learning",
     "LLMs",
     "Knowledge Graphs",
-    "Agentic AI",
     "Software Engineer",
     "Seattle"
   ],
@@ -41,8 +43,8 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://vaidy.ai",
     siteName: "vaidy.ai",
-    title: "Vaidy | Lead AI Engineer @ Meta Reality Labs",
-    description: "Building the future of developer AI for the Metaverse. 5 US Patents, Meta Connect 2025 Speaker, ACM ICPC Finalist.",
+    title: "Vaidy | Lead AI Engineer @ Meta",
+    description: "Building production-grade Agentic AI systems at Meta. 5 US Patents, Meta Connect 2025 Speaker, ACM ICPC Finalist.",
     images: [
       {
         url: "/og-image.svg",
@@ -54,8 +56,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vaidy | Lead AI Engineer @ Meta Reality Labs",
-    description: "Building the future of developer AI for the Metaverse.",
+    title: "Vaidy | Lead AI Engineer @ Meta",
+    description: "Building production-grade Agentic AI systems at Meta.",
     images: ["/og-image.svg"]
   },
   robots: {

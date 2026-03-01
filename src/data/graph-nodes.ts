@@ -23,10 +23,10 @@ export const graphNodes: GraphNode[] = [
     group: "center",
     color: "#00ff9f",
     size: 40,
-    description: "Lead AI Engineer @ Meta Reality Labs",
+    description: "Lead AI Engineer @ Meta — Agentic AI Systems",
     details: {
       title: "Lead AI Engineer",
-      company: "Meta Reality Labs",
+      company: "Meta",
       location: "Seattle, WA"
     }
   },
@@ -34,7 +34,7 @@ export const graphNodes: GraphNode[] = [
   // Experience nodes
   {
     id: "exp-meta",
-    label: "Meta Reality Labs",
+    label: "Meta — Core Agentic Systems",
     group: "experience",
     color: "#64ffda",
     size: 30,
@@ -43,8 +43,8 @@ export const graphNodes: GraphNode[] = [
       role: "Lead AI Engineer",
       period: "March 2024 - Present",
       highlights: [
-        "AI Foundations Team",
-        "Building AI-driven developer platforms",
+        "Core Agentic Systems",
+        "Production-scale multi-agent architectures",
         "Knowledge Graph with 500K+ nodes",
         "Meta Connect 2025 Speaker"
       ]

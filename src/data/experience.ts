@@ -15,20 +15,20 @@ export const experiences: Experience[] = [
   {
     id: "meta-reality-labs",
     role: "Lead AI Engineer",
-    company: "Meta Reality Labs",
-    team: "Developer & Pro Platforms Group",
+    company: "Meta",
+    team: "Core Agentic Systems",
     location: "Bellevue, United States",
     period: "March 2024 - Present",
     startDate: "2024-03",
     endDate: "present",
     highlights: [
-      "Building AI-driven developer platforms for the Horizon ecosystem (VR/MR, mobile, web, desktop), empowering 20K+ developers building for the Metaverse",
+      "Designing production-scale agentic AI systems and autonomous multi-agent architectures that tackle complex operational challenges across diverse domains within Meta",
       "Built foundational infrastructure powering agentic coding assistants, focusing on safe and reliable AI assistance. Improved code generation accuracy to 85%+ and reduced onboarding time by 60%",
-      "Designed novel Knowledge Graph System with 500K+ nodes powering Meta Horizon Worlds Gen AI Assistant. Achieved 78% precision and 88% recall through golden-set benchmarks. Filed patent with USPTO",
+      "Designed novel Knowledge Graph System with 500K+ nodes powering Meta Gen AI Assistant. Achieved 78% precision and 88% recall through golden-set benchmarks. Filed patent with USPTO",
       "Architected AI-ready documentation pipelines processing 10K+ API endpoints with vector indexes. Achieved <200ms latency and 40% token cost reduction",
       "Speaker at Meta Connect 2025: Presented on responsible development of agentic AI systems to 5,000+ developers. Featured in Connect Developer Keynote (100K+ viewers)"
     ],
-    skills: ["Agentic AI", "Knowledge Graphs", "Retrieval Frameworks", "Evaluation & Safety", "Vector DBs", "RAG", "AST", "Developer Experience"]
+    skills: ["Agentic AI", "Multi-Agent Orchestration", "Knowledge Graphs", "Retrieval Frameworks", "Evaluation & Safety", "Vector DBs", "RAG", "Autonomous Systems"]
   },
   {
     id: "amazon-rufus",

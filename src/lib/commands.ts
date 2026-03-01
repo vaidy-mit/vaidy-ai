@@ -233,11 +233,11 @@ const commands: Record<string, CommandHandler> = {
 
   neofetch: () => [
     { type: "ascii", content: profile.ascii, color: "var(--text-primary)" },
-    { type: "text", content: `vaidy@metaverse`, color: "var(--text-primary)" },
+    { type: "text", content: `vaidy@meta`, color: "var(--text-primary)" },
     { type: "text", content: "─".repeat(20) },
-    { type: "text", content: `OS: Reality Labs Platform`, color: "var(--accent-blue)" },
-    { type: "text", content: `Host: Meta Horizon Worlds`, color: "var(--accent-purple)" },
-    { type: "text", content: `Kernel: Agentic AI v2.0`, color: "var(--accent-pink)" },
+    { type: "text", content: `OS: Meta AI Platform`, color: "var(--accent-blue)" },
+    { type: "text", content: `Host: Core Agentic Systems`, color: "var(--accent-purple)" },
+    { type: "text", content: `Kernel: Agentic AI v3.0`, color: "var(--accent-pink)" },
     { type: "text", content: `Uptime: ${new Date().getFullYear() - 2015} years in tech`, color: "var(--accent-orange)" },
     { type: "text", content: `Packages: 5 patents (4 issued)`, color: "var(--text-primary)" },
     { type: "text", content: `Shell: Knowledge Graph 500K+ nodes`, color: "var(--text-secondary)" },

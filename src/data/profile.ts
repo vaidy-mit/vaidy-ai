@@ -2,17 +2,17 @@ export const profile = {
   name: "Vaidyanathan P K",
   shortName: "Vaidy",
   title: "Lead AI Engineer",
-  company: "Meta Reality Labs",
+  company: "Meta",
   location: "Seattle, United States",
   email: "vaidy.39e@gmail.com",
   phone: "+1-2069545822",
   linkedin: "https://www.linkedin.com/in/vaidyanathan-pk-1a494086/",
 
-  bio: `AI engineer building developer platforms for the Metaverse.
-Leading AI Foundations at Meta Reality Labs, crafting intelligent
-tools that empower 20K+ developers building for VR/MR/XR.`,
+  bio: `AI engineer designing production-scale agentic AI systems at Meta.
+Building autonomous, reliable multi-agent architectures that tackle
+complex real-world operational challenges across diverse domains.`,
 
-  tagline: "Building the future of developer AI for the Metaverse",
+  tagline: "Building production-grade Agentic AI systems that operate reliably at scale",
 
   ascii: `
  __      __    _     _
@@ -26,7 +26,7 @@ tools that empower 20K+ developers building for VR/MR/XR.`,
 `,
 
   highlights: [
-    "Lead AI Engineer at Meta Reality Labs",
+    "Lead AI Engineer at Meta — Agentic AI Systems",
     "Built Rufus - Amazon's Gen AI Shopping Assistant",
     "5 US Patents in AI, Voice & Speech Recognition",
     "Meta Connect 2025 Featured Speaker",

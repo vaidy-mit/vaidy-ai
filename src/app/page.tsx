@@ -19,9 +19,9 @@ export default function HomePage() {
 
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-[var(--text-muted)] mb-4 max-w-2xl mx-auto leading-relaxed measure">
-            AI Engineer building the future of{" "}
-            <span className="text-[var(--text-secondary)]">developer tools</span>{" "}
-            at Meta Reality Labs
+            AI Engineer building{" "}
+            <span className="text-[var(--text-secondary)]">production-grade Agentic AI</span>{" "}
+            systems at Meta
           </p>
 
           {/* Role */}

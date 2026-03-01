@@ -11,12 +11,14 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       "Large Language Models (LLMs)",
       "Agentic AI Systems",
+      "Multi-Agent Orchestration",
+      "Autonomous Systems Design",
       "Knowledge Graphs",
       "RAG (Retrieval Augmented Generation)",
       "Vector Databases",
       "Prompt Engineering",
-      "Hallucination Mitigation",
-      "Evaluation & Safety"
+      "AI Reliability & Safety",
+      "Evaluation Frameworks"
     ]
   },
   {
