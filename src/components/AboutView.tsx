@@ -211,7 +211,18 @@ export const AboutView: React.FC<AboutViewProps> = ({ onSwitchView }) => {
                   <span className="text-2xl">{icon}</span>
                   <div>
                     <h3 className="font-display text-[var(--text-primary)] font-medium">
-                      {ach.title}
+                      {ach.link ? (
+                        <a
+                          href={ach.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:underline"
+                        >
+                          {ach.title} ↗
+                        </a>
+                      ) : (
+                        ach.title
+                      )}
                     </h3>
                     <p className="text-xs text-[var(--text-secondary)] mb-2">
                       {ach.organization} • {ach.year}

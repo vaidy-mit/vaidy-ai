@@ -5,9 +5,19 @@ export interface Achievement {
   year: string;
   description: string;
   category: "award" | "competition" | "certification" | "speaking";
+  link?: string;
 }
 
 export const achievements: Achievement[] = [
+  {
+    id: "atscale-ai-data-2026",
+    title: "AI + Data @Scale 2026 Presenter",
+    organization: "Meta",
+    year: "2026",
+    description: "Presented 'Evaluating Opsmate: Grading AI Incident Investigations at Scale' to external industry AI experts. Covered LLM-as-judge evaluation of autonomous incident-investigation agents (~1.5k incidents/day) across root-cause accuracy, investigation-path logic, and mitigation actionability.",
+    category: "speaking",
+    link: "https://atscaleconference.com/ai-data-2026/?tab=1&item=27#agenda-item-27"
+  },
   {
     id: "meta-connect-2025",
     title: "Meta Connect 2025 Featured Speaker",

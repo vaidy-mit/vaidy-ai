@@ -30,6 +30,7 @@ complex real-world operational challenges across diverse domains.`,
     "Built Rufus - Amazon's Gen AI Shopping Assistant",
     "5 US Patents in AI, Voice & Speech Recognition",
     "Meta Connect 2025 Featured Speaker",
+    "AI + Data @Scale 2026 Presenter",
     "ACM ICPC Regional Finalist"
   ]
 };

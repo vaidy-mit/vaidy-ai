@@ -26,7 +26,7 @@ export default function HomePage() {
 
           {/* Role */}
           <p className="text-[var(--accent-purple)] mb-12">
-            Lead AI Engineer • 5 Patents • Meta Connect Speaker
+            Lead AI Engineer • 5 Patents • Meta Connect Speaker • @Scale Presenter
           </p>
           {/* CTA Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-16">
@@ -74,6 +74,54 @@ export default function HomePage() {
         </h2>
 
         <div className="space-y-8">
+          {/* AI + Data @Scale 2026 Talk */}
+          <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] overflow-hidden">
+            <div className="flex flex-col md:flex-row">
+              <div
+                className="aspect-video md:aspect-auto md:w-80 md:shrink-0 md:self-stretch min-h-48 bg-[var(--bg-terminal)] bg-cover bg-center"
+                style={{ backgroundImage: "url('/atscale-2026.jpg')" }}
+                role="img"
+                aria-label="Vaidy presenting the Opsmate evaluation poster at AI + Data @Scale 2026"
+              />
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-2xl">🎤</span>
+                  <span className="text-xs text-[var(--accent-blue)] bg-[var(--accent-blue)]/10 px-2 py-1 rounded">
+                    AI + DATA @SCALE 2026
+                  </span>
+                </div>
+                <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-2">
+                  Evaluating Opsmate: Grading AI Incident Investigations at Scale
+                </h3>
+                <p className="text-[var(--text-muted)] text-sm leading-relaxed mb-4">
+                  Presented our work on evaluating Opsmate — an autonomous agent that
+                  investigates ~1,500 incidents/day at Meta — to external industry AI experts.
+                  Built on LLM-as-judge graders that score investigations on a calibrated 0–100
+                  scale across root-cause accuracy, investigation-path logic, and mitigation
+                  actionability.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <a
+                    href="https://atscaleconference.com/ai-data-2026/?tab=1&item=27#agenda-item-27"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-[var(--text-primary)] hover:underline"
+                  >
+                    View Session ↗
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/feed/update/urn:li:activity:7473179089546424321/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-[var(--accent-blue)] hover:underline"
+                  >
+                    LinkedIn Post ↗
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Meta Connect Session Talk */}
           <div className="bg-[var(--bg-card)] rounded-xl border border-[var(--border-color)] overflow-hidden">
             <div className="flex flex-col md:flex-row">
